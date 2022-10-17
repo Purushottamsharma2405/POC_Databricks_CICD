@@ -15,7 +15,7 @@ jobs:
        with:
          local-notebook-path: notebooks/MyProject
          databricks-host: https://adb-5277218914754130.10.azuredatabricks.net
-         databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
+#         databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
          git-commit: ${{ github.event.pull_request.head.sha }}
          new-cluster-json: >
            {
