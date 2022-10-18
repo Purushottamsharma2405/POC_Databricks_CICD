@@ -18,7 +18,18 @@
                     "name": "standard",
                     "family": "A"
                 },
-                "accessPolicies": [],
+                "accessPolicies": [
+                    {
+                        "applicationId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
+                        "objectId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
+                        "permissions": {
+                        "certificates": [ "get","list" ],
+                        "keys": ["get","list"],
+                        "secrets": ["get","list"]
+                        },
+                        "tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+                    }
+                ],
                 "networkAcls": {
                     "defaultAction": "Allow",
                     "bypass": "AzureServices"
