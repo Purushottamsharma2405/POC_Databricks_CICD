@@ -20,7 +20,7 @@
                 },
                 "accessPolicies": [
                     {
-                        "applicationId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
+                        "applicationId": "ServicePrincipalGitHubAction",
                         "objectId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
                         "permissions": {
                         "certificates": [ "get","list" ],
