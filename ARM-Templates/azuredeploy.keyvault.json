@@ -20,7 +20,8 @@
                 },
                 "accessPolicies": [
                     {
-                        "objectId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
+                        "applicationId": "26ddbd80-c9dd-4007-96e2-722fc2accee4",
+                        "objectId": "7ebbd007-c51a-4257-8a4c-791661fd7721",
                         "permissions": {
                         "secrets": ["all"]
                         },
