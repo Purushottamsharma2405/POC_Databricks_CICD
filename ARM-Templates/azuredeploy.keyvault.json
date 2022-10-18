@@ -34,7 +34,7 @@
             "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]"
           ],
           "properties": {
-            "value": "9d08fcd9-b6df-4a2f-9697-0414d8838111"  #"PLEASE_SET (e.g. 00000000-0000-0000-0000-000000000000)"
+            "value": "9d08fcd9-b6df-4a2f-9697-0414d8838111" 
           }
         },
         {
