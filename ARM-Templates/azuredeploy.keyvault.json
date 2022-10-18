@@ -34,7 +34,7 @@
             "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]"
           ],
           "properties": {
-            "value": "PLEASE_SET_ME (e.g. 00000000-0000-0000-0000-000000000000)"
+            "value": "9d08fcd9-b6df-4a2f-9697-0414d8838111"  #"PLEASE_SET (e.g. 00000000-0000-0000-0000-000000000000)"
           }
         },
         {
@@ -46,7 +46,7 @@
             "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]"
           ],
           "properties": {
-            "value": "PLEASE_SET_ME (e.g. 00000000-0000-0000-0000-000000000000)"
+            "value": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
           }
         },
         {
@@ -58,7 +58,7 @@
             "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]"
           ],
           "properties": {
-            "value": "PLEASE_SET_ME (e.g. 00000000-0000-0000-0000-000000000000)"
+            "value": "26ddbd80-c9dd-4007-96e2-722fc2accee4"
           }
         },
         {
@@ -70,7 +70,7 @@
             "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]"
           ],
           "properties": {
-            "value": "PLEASE_SET_ME"
+            "value": "Iay8Q~9~TkhTlf~vq0MzLJc3r-u.xZC4tJGODawT"
           }
         }
     ]
