@@ -1,0 +1,23 @@
+version: 0.2
+
+phases: 
+  install:
+    command: 
+    - apt install zip
+  pre_build:
+    command: 
+    - pwd
+    - ls
+    - cd notebooks
+  build: 
+    command:
+    - echo "Build Phase CI for Databricks phase ---- Zip"
+    - zip -r drop.zip MyProject
+  post_build:  
+    command:
+    - echo "Updating files in S3 Bucket..."
+    - aws s3 sync dist/Notebooks/ s3://kiavi-demo-s3-2022/Notebooks/ --delete
+artifacts:
+  files:
+    - drop.zip
+  name: drop-$(date +%Y-%m-%d) 
