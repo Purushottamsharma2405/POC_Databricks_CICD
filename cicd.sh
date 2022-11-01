@@ -1,14 +1,5 @@
 #! /bin/bash
 
-#Update System Local Repositories
-export RPASS="1111"
-sudo apt-get update -y
-sudo apt-get upgrade -y
-
-# install python3 and pip 
-sudo apt install python3 -y
-sudo apt install python3-pip -y
-
 #Installing required dependencies
 pip3 install -r requirement.txt
 
