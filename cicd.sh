@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #Update System Local Repositories
-sudp apt-get update -y
+sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # install python3 and pip 
